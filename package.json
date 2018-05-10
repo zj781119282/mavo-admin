@@ -1,7 +1,7 @@
 {
-  "name": "linkdom",
+  "name": "mavo-admin",
   "version": "1.0.0",
-  "description": "linkdom website",
+  "description": "MAVO content management system",
   "main": "",
   "scripts": {
     "build": "webpack --config ./scripts/webpack.config.js",
@@ -9,11 +9,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/zj781119282/linkdom.git"
+    "url": "https://github.com/zj781119282/mavo-admin.git"
   },
-  "author": "DarCreator Frontend Technical Team",
+  "author": "zj781119282",
   "license": "proprietary",
-  "private": true,
+  "private": false,
   "homepage": "",
   "devDependencies": {
     "autoprefixer": "^8.2.0",
@@ -26,6 +26,7 @@
     "babel-preset-es2015": "^6.24.1",
     "babel-runtime": "^6.23.0",
     "clean-webpack-plugin": "^0.1.19",
+    "copy-webpack-plugin": "^4.5.1",
     "css-loader": "~0.28.4",
     "expose-loader": "~0.7.3",
     "extract-text-webpack-plugin": "^3.0.0",
